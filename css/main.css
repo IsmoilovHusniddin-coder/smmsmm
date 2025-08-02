@@ -1,0 +1,57 @@
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/nunito-sans-v18-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/nunito-sans-v18-latin-600.woff2") format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containers {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  position: absolute;
+  display: none;
+  right: 0;
+  background-color: #ff772d33;
+  width: 200px;
+  padding: 15px;
+  border-radius: 20px;
+  color: #ff772d;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.hero-bg-images {
+  background-image: url(../images/hero-section-bg-youtube.svg),
+    url(../images/hero-section-bg-tg.svg),
+    url(../images/hero-section-bg-insta.svg),
+    url(../images/hero-section-bg-tiktok.svg),
+    url(../images/hero-section-bg-facebook.svg),
+    url(../images/hero-section-bg-w.svg),
+    url(../images/hero-section-bg-messege.svg);
+  background-repeat: no-repeat;
+  background-position: 14.11% 1.25%, 63.5% 0, 7.6% 40.95%, 80% 15.3%,
+    66% 48.364%, 21% 70.8%, 89.1% 82.5%;
+}

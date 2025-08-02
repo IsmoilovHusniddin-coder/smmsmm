@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <style type="text/tailwindcss"></style>
+  </head>
+  <body>
+    <header>
+      <div class="containers py-[20px] gap-8 flex items-center justify-between">
+        <a href="/"><img src="./images/site-logo.svg" alt="" /></a>
+        <ul class="hidden xl:flex items-center justify-between gap-7">
+          <li>Услуги</li>
+          <li>Отзывы</li>
+          <li>Как это работает</li>
+          <li>Преимущества</li>
+          <li>Частые вопросы</li>
+        </ul>
+        <div class="flex items-center gap-6">
+          <div class="hidden sm:flex items-center justify-between gap-4">
+            <button
+              class="font-normal text-[16px] leading-[160%] text-[#FF772D] hover:bg-[#FF772D] py-[13px] px-[20px] border-[1px] border-[#FF772D] rounded-[16px] hover:text-[#FFFFFF]"
+            >
+              Войти
+            </button>
+            <button
+              class="font-normal text-[16px] leading-[160%] hover:text-[#FF772D] hover:bg-[#FFFFFF] bg-[#FF772D] py-[13px] px-[20px] border-[1px] border-[#FF772D] rounded-[16px] text-[#FFFFFF]"
+            >
+              Быстрый заказ
+            </button>
+          </div>
+          <div class="xl:hidden dropdown">
+            <div
+              class="w-[40px] h-[7px] mt-[7px] bg-[#FF772D] rounded-[10px]"
+            ></div>
+            <div
+              class="w-[40px] h-[7px] mt-[7px] bg-[#FF772D] rounded-[10px]"
+            ></div>
+            <div
+              class="w-[40px] h-[7px] mt-[7px] bg-[#FF772D] rounded-[10px]"
+            ></div>
+            <div class="dropdown-content">
+              <ul class="flex items-center flex-col gap-2">
+                <li>Услуги</li>
+                <li>Отзывы</li>
+                <li>Как это работает</li>
+                <li>Преимущества</li>
+                <li>Частые вопросы</li>
+              </ul>
+              <center>
+                <button
+                  class="sm:hidden my-[8px] font-normal text-[16px] leading-[160%] text-[#FF772D] hover:bg-[#FF772D] py-[13px] px-[20px] border-[1px] border-[#FF772D] rounded-[16px] hover:text-[#FFFFFF]"
+                >
+                  Войти
+                </button>
+                <button
+                  class="sm:hidden font-normal text-[16px] leading-[160%] hover:text-[#FF772D] hover:bg-[#FFFFFF] bg-[#FF772D] py-[13px] px-[20px] border-[1px] border-[#FF772D] rounded-[16px] text-[#FFFFFF]"
+                >
+                  Быстрый заказ
+                </button>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero-bg-images max-w-[1920px]">
+          <div class="containers">
+            <div class="pt-[125px] pb-[238px]">
+              <div class="max-w-[610px] text-center mx-auto">
+                <h1
+                  class="font-semibold text-[36px] leading-[150%] text-[#212121]"
+                >
+                  Продвижение во
+                  <span class="text-[#FF772D]">всех соцсетях</span> за пару
+                  кликов
+                </h1>
+                <p
+                  class="font-normal text-[18px] leading-[160%] text-[#676767] mt-[24px] mb-[40px]"
+                >
+                  Получайте подписчиков, лайки, репосты, просмотры,
+                  прослушивания и любую другую активность на свои профили в
+                  социальных сетях по самым низким ценам на рынке и в самые
+                  быстрые сроки!
+                </p>
+                <button
+                  class="font-semibold text-[16px] leading-[160%] hover:text-[#FF772D] hover:bg-[#FFFFFF] bg-[#FF772D] py-[18px] px-[32px] border-[1px] border-[#FF772D] rounded-[16px] text-[#FFFFFF]"
+                >
+                  Начать продвижение
+                </button>
+                <center>
+                  <div class="flex gap-2 mt-[45px] mb-[7px] w-[184px]">
+                    <img src="./images/hero-section-star.svg" alt="" />
+                    <strong>4.4 / 5</strong>
+                  </div>
+                </center>
+                <p
+                  class="font-normal text-[18px] leading-[160%] text-[#676767] mt-[24px] mb-[40px]"
+                >
+                  По данным 693 отзывов
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="zakas-section mb-[172px]">
+        <div class="containers">
+          <h2
+            class="font-semibold text-[36px] leading-[150%] text-[#212121] mb-[40px]"
+          >
+            Быстрый заказ
+          </h2>
+          <div class="flex flex-col md:flex-row items-center justify-between">
+            <div>
+              <p class="font-normal text-[18px] leading-[160%] text-[#676767]">
+                Сначала выберите социальную сеть
+              </p>
+              <div class="mt-[24px] flex flex-wrap gap-[24px]">
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-insta.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Instagram
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-w.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    VK
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-tg.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Telegram
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-tiktok.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    TikTok
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-twitter.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Twitter
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-youtube.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Twitter
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-face.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Facebook
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-twitch.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Twitch
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-ru.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    RuTube
+                  </p>
+                </button>
+              </div>
+            </div>
+            <div>
+              <p class="font-normal text-[18px] leading-[160%] text-[#676767]">
+                Затем выберите услугу
+              </p>
+              <div class="mt-[24px] flex flex-wrap gap-[24px]">
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-person.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Подписчики
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-video.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Зрители
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-like.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Лайки
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-status.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Статистика
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-pros.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Просмотры
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-tv.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    IGTV
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-coment.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Комментарии
+                  </p>
+                </button>
+                <button
+                  class="w-[260px] bg-[#F9F9F9] flex items-center p-[12px] rounded-[20px] gap-5 border-[2px] border-[#F9F9F9] hover:border-[#FF772D]"
+                >
+                  <img src="./images/zakas-section-rels.svg" alt="" />
+                  <p
+                    class="font-semibold text-[18px] leading-[24px] text-[#212121]"
+                  >
+                    Reels
+                  </p>
+                </button>
+                <button
+                  class="font-normal text-[16px] leading-[160%] hover:text-[#FF772D] hover:bg-[#FFFFFF] bg-[#FF772D] py-[24px] w-[100%] border-[1px] border-[#FF772D] rounded-[16px] text-[#FFFFFF]"
+                >
+                  Быстрый заказ
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Telegram CTA -->
+      <section class="py-12">
+        <div class="container mx-auto flex flex-col items-center">
+          <img
+            src="/images/telegram-logo.svg"
+            alt="Telegram"
+            class="w-24 h-24 mb-4"
+          />
+          <p class="text-center text-lg text-gray-700 max-w-md">
+            Создайте и оплачивайте заказы напрямую через Telegram.
+          </p>
+          <button
+            class="mt-6 bg-[#FF772D] hover:bg-[#e9671c] text-white px-6 py-3 rounded-lg font-medium"
+          >
+            Открыть бот
+          </button>
+        </div>
+      </section>
+
+      <!-- Как работает -->
+      <section class="py-12 bg-white">
+        <div class="container mx-auto">
+          <h3 class="text-2xl font-semibold text-center mb-8">Как работает</h3>
+          <div class="grid md:grid-cols-2 gap-8">
+            <div>
+              <h4 class="text-xl font-semibold mb-2 text-[#FF772D]">
+                01. Регистрация
+              </h4>
+              <p class="text-gray-600">Создайте аккаунт за 1 минуту.</p>
+            </div>
+            <div>
+              <h4 class="text-xl font-semibold mb-2 text-[#FF772D]">
+                02. Выбор услуги
+              </h4>
+              <p class="text-gray-600">Выберите соцсеть и услугу.</p>
+            </div>
+            <div>
+              <h4 class="text-xl font-semibold mb-2 text-[#FF772D]">
+                03. Оплата
+              </h4>
+              <p class="text-gray-600">Оплатите удобным способом.</p>
+            </div>
+            <div>
+              <h4 class="text-xl font-semibold mb-2 text-[#FF772D]">
+                04. Запуск
+              </h4>
+              <p class="text-gray-600">Заказ запускается автоматически.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Преимущества -->
+      <section class="py-12">
+        <div class="container mx-auto">
+          <h3 class="text-2xl font-semibold text-center mb-8">Преимущества</h3>
+          <div class="grid gap-6 md:grid-cols-3">
+            <div class="bg-white rounded-lg shadow p-6">
+              <h4 class="font-semibold text-lg mb-2">Низкие цены</h4>
+              <p class="text-gray-600">Доступные услуги для любого бюджета.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow p-6">
+              <h4 class="font-semibold text-lg mb-2">Скорость</h4>
+              <p class="text-gray-600">Молниеносный запуск заказов.</p>
+            </div>
+            <div class="bg-white rounded-lg shadow p-6">
+              <h4 class="font-semibold text-lg mb-2">Поддержка</h4>
+              <p class="text-gray-600">Помощь 24/7 по всем вопросам.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Частые вопросы (oddiy divlar bilan) -->
+      <section class="py-12 bg-white">
+        <div class="container mx-auto">
+          <h3 class="text-2xl font-semibold text-center mb-8">
+            Частые вопросы
+          </h3>
+          <div class="space-y-4">
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="font-semibold mb-2">Как оплатить заказ?</h4>
+              <p class="text-gray-600">
+                Вы можете оплатить банковской картой или через электронные
+                кошельки.
+              </p>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="font-semibold mb-2">Когда начнется выполнение?</h4>
+              <p class="text-gray-600">
+                Обычно заказ запускается в течение 5-10 минут после оплаты.
+              </p>
+            </div>
+            <div class="bg-gray-50 p-4 rounded-lg">
+              <h4 class="font-semibold mb-2">Можно ли вернуть деньги?</h4>
+              <p class="text-gray-600">
+                Да, возврат возможен при невыполнении услуги.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="py-8 bg-[#FF772D] text-white">
+      <div
+        class="container mx-auto flex flex-col md:flex-row justify-between items-center gap-4"
+      >
+        <strong>&copy; 2025 SMMPro Все права защищены.</strong>
+        <div class="flex gap-4">
+          <a href="#"
+            ><img src="/images/icon-instagram.svg" class="w-6 h-6"
+          /></a>
+          <a href="#"
+            ><img src="/images/icon-telegram.svg" class="w-6 h-6"
+          /></a>
+          <a href="#"><img src="/images/icon-youtube.svg" class="w-6 h-6" /></a>
+        </div>
+      </div>
+    </footer>
+
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <!--  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+  </body>
+</html>
