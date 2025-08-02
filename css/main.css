@@ -7,10 +7,10 @@
 }
 @font-face {
   font-display: swap;
-  font-family: "Nunito Sans";
+  font-family: "Unbounded";
   font-style: normal;
   font-weight: 600;
-  src: url("../fonts/nunito-sans-v18-latin-600.woff2") format("woff2");
+  src: url("../fonts/unbounded-v11-latin-600.woff2") format("woff2");
 }
 
 * {
@@ -54,4 +54,30 @@
   background-repeat: no-repeat;
   background-position: 14.11% 1.25%, 63.5% 0, 7.6% 40.95%, 80% 15.3%,
     66% 48.364%, 21% 70.8%, 89.1% 82.5%;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+.scroll-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.telegram {
+  background-image: url(../images/telegram-section-tg.svg);
+  background-repeat: no-repeat;
+  background-position: 52% 20%;
+}
+@media (max-width: 1280px) {
+  .telegram {
+    background-image: url(../images/telegram-section-tg-phone.svg);
+    background-position: 90% 5%;
+  }
+}
+
+.smmWorks-section-wrap {
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 24px;
+  padding: 15px 32px 0 64px;
 }
